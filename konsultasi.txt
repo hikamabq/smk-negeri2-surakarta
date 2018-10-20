@@ -1,0 +1,27 @@
+akademik{
+	materi/kurikulum
+	info test
+	materi (tutorial)
+}
+buku tamu{
+	nama
+	email
+	komentar
+}
+
+===== disarankan oleh pak tri =====
+
+referensi front-end/layout{
+	adan
+	ananta
+	hikam
+	rafi
+	pineda
+}
+
+referensi back-end/fungsi php{
+	ananta
+	dylan
+	hikam
+	pineda
+}

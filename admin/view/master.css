@@ -1,0 +1,137 @@
+*{padding: 0; margin: 0;}
+
+body{
+  background-color: #white;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+a{text-decoration: none;}
+.title-atas{
+  width: 100%;
+  padding: 20px 0px;
+  margin: 0px 0;
+  text-align: center;
+  color: white;
+  background-color: #222222;
+}
+.title{
+  width: 100%;
+  padding: 11px 0px;
+  margin: 0px 0px 20px 0px;
+  text-align: right; font-size: 32px;
+  color: white;
+  background-color: #222222;
+}
+.wrapper{
+  width: 90%; margin: 0 auto;
+}
+.konten{
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+}
+#main{
+  width: 79%;
+  float: left;/*
+  margin-right: 1%;*/
+  padding: 0px 20px 20px 20px; float: right;
+  box-sizing: border-box;
+}
+
+#update{
+  padding: 10px; background-color: white;
+  text-align: center; margin-bottom: 10px;
+  border:1px solid #E0E0E0;
+  border-radius: 5px;
+}
+#update a{
+  color: #424242;
+}
+
+.post{
+	padding: 10px; background-color: white;
+	border-bottom: 1px solid silver;
+	margin-bottom: 15px;
+  color: #424242;
+  line-height: 25px;
+}
+.post h2{
+	color:#616161; padding: 10px 0px;
+  border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+}
+.post img{
+  width: 100%; height: auto;
+  text-align: left;
+  margin: 10px 10px 10px 0px;
+  display: block;
+}
+.post b{
+	margin-right: 20px;
+  font-weight: normal;
+  font-size: 13px;
+}
+.post a{
+	color: white; padding: 3px 20px;
+  background-color: #59E638;
+	margin:  5px 10px; border-radius: 3px;
+}
+.edit{
+  width: 100%; box-shadow: 0px 2px 5px 1px #BDBDBD;
+  background-color: white; text-align: justify;
+  padding: 20px; overflow: hidden;
+  box-sizing: border-box; margin-bottom: 15px;
+}
+.edit input{
+  width: 50%; border-radius: 3px;
+  padding: 10px;
+  box-sizing: border-box;
+  border:1px solid #2196F3;
+}
+.edit input[type="file"]{
+  border:1px solid #2196F3;
+  background-color: white; border-radius: 3px;
+}
+.edit input[type="submit"]{
+  background-color: #2196F3;
+  color: white; cursor: pointer;
+  margin-bottom: 20px; border-radius: 3px;
+}
+.edit textarea{
+  width: 100%; line-height: 23px;
+  height: 300px; font-size: 16px;
+  padding: 10px; border-radius: 3px;
+  box-sizing: border-box;
+  border:1px solid #2196F3;
+}
+#side{
+  width: 20%; position: fixed;
+  float: left; height: 100%;
+  background-color: #FAFAFA;
+  /*box-shadow: 0px 2px 5px 1px #BDBDBD;*/
+  border-right: 1px solid #E0E0E0;
+  box-sizing: border-box;
+}
+
+#side li{
+  width: 100%;
+  padding: 15px 0px 15px 30px; text-align: left;
+  list-style: none;
+  box-sizing: border-box;
+}
+#side li:hover{
+  background-color: #F3F3F3;
+  color: #0074B9;
+}
+#side a{color: #3498DB;}
+
+
+#footer{
+	clear: both; padding: 20px;
+	width: 100%; height: 100px;
+	background-color: #717171;
+	box-sizing: border-box;
+	color: white; box-sizing: border-box;
+	text-align: center;
+}
